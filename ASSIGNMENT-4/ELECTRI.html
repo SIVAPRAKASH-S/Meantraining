@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Electric Bill</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function addtion(num){
+			if(num<=100){
+				res=num*2;
+				return res;
+			}
+			else if(num>100 && num<=200){
+				res=200+((num-100)*3);
+				return res;
+			}
+			else if(num>200){
+				res=200+300+((num-200)*4);
+				return res;
+			}
+		}
+		AMOUNT= addtion(200)
+	console.log('Total Amount is '+ AMOUNT);
+	</script>
+
+</body>
+</html>

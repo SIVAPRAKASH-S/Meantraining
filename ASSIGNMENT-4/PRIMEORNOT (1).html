@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prime Or Not</title>
+</head>
+<body>
+	<h2>PRIME OR NOT</h2>
+	<script type="text/javascript">
+		function pn(n,i)
+		{
+			var a;
+			while(i<(n)){
+				if (n%i==0) {
+					a=false;
+					break;
+				}
+				i++;
+			}
+			return a;
+		}
+		primeornot=pn(23,2)
+
+		if (primeornot==false) {
+			console.log('Its not a Prime Number');
+		}
+		else
+		{
+			console.log('Its a prime Number');
+		}
+	</script>
+
+</body>
+</html>
